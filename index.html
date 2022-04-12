@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>The Quaint</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        
+        <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
+        <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        
+        <link rel = "icon" href = "images/logo.png" type = "image/png">
+    </head>
+    <body>
+        
+        <!-- header -->
+        <header class = "header" id = "header">
+            <div class = "head-top">
+                <div class = "site-name">
+                    <span>THE QUAINT</span>
+                </div>
+                <div class = "site-nav">
+                    <span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
+                </div>
+            </div>
+
+            <div class = "head-bottom flex">
+                <h2>The Ultimate LUXURY Experience</h2>
+                <p>Get up to 15% off ​for stays through April 30, 2022 ​when you book by December 21, 2021​. Choose from 850+ rooms. Stay with us!</p>
+                <button type = "button" class = "head-btn" ><a href="booking.html" target="_blank">Book Now</a></button>
+                
+            </div>
+        </header>
+        <!-- end of header -->
+
+        <!-- side navbar -->
+        <div class = "sidenav" id = "sidenav">
+            <span class = "cancel-btn" id = "cancel-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+            
+            <ul class = "navbars">
+                <li><a href = "#header">Home</a></li>
+                <li><a href = "#rooms">Rooms</a></li>
+                <li><a href = "#photos">Gallery</a></li>
+                <li><a href = "#services">Services</a></li>
+                <li><a href = "#customers">Customers</a></li>
+                <li><a href = "#offers">Offers & Promotions</a></li>
+                <li><a href = "booking.html" target="_blank">Booking</a></li>
+            </ul>
+            <button type = "button" class = "btn log-in"><a href="login.html" target="_blank">log in</a></button>
+        </div>
+        <!-- end of side navbar -->
+
+        <!-- fullscreen modal -->
+        <div id = "modal"></div>
+        <!-- end of fullscreen modal -->
+
+        <!-- Room Section -->
+        <section class = "rooms sec-width" id = "rooms">
+            <div class = "title">
+                <h1>rooms</h1>
+            </div>
+            <div class = "rooms-container">
+                 <!-- Premiere Rooms -->
+                 <article class = "room">
+                    <div class = "room-image">
+                        <img src = "images/Premeire.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Premiere Rooms</h3>
+                        <ul>
+                            <li><i class = "fas fa-car"></i>Airport transfers in SUV</li>
+                            <li><i class = "fas fa-wifi"></i>Complimentary Basic WiFi</li>
+                            <li><i class = "fas fa-users"></i>Up to 2 guests Max Adults: 2, Child: 1</li>
+                            <li><i class = "fas fa-concierge-bell"></i>24 hours in-room dining</li>
+                        </ul>
+                        <p>Relive a royal era here. The vibrant colours of the interiors add to a regal ambience with the primary aim to make guests feel at home. Some of the amenities in the room include complimentary hair dryer, iron and ironing board, mineral water bottles and a tea and coffee maker.</p>
+                        <p class = "rate">
+                            <span>Rs. 15200* /</span> Per Night
+                        </p>
+                        <button type = "button" class = "head-btn"><a href="booking.html" target="_blank">Book Now</a></button>
+                    </div>
+                </article>
+
+                <!-- Luxury room -->
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "images/Luxury Room.jpeg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Luxury Rooms</h3>
+                        <ul>
+                            <li><i class = "fas fa-car"></i>Airport transfers in SUV</li>
+                            <li><i class = "fas fa-wifi"></i>Complimentary Basic WiFi</li>
+                            <li><i class = "fas fa-users"></i>Upto 4 people</li>
+                            <li><i class = "fas fa-concierge-bell"></i>24 hours in-room dining</li>
+                        </ul>
+                        <p>At about 552 sq ft (51 sq mt) these may be the smallest rooms in the hotel, but rest assured these are larger than their counterparts across the city. Book yourself into one of these rooms to feel the difference and enjoy the comforts of life that we have laid out for you.</p>
+                        <p class = "rate">
+                            <span>Rs. 20000* /</span> Per Night
+                        </p>
+                        <button type = "button" class = "head-btn"><a href="booking.html" target="_blank">Book Now</a></button>
+                    </div>
+                </article>
+
+                <!-- Executive Suite -->
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "images/Executive Suite.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Executive Suite</h3>
+                        <ul>
+                            <li><i class = "fas fa-car"></i>Airport transfers in BMW</li>
+                            <li><i class = "fas fa-wifi"></i>Complimentary Basic WiFi</li>
+                            <li><i class = "fas fa-users"></i>Up to 4 guests </li>
+                            <li><i class = "fas fa-concierge-bell"></i>24 hours in-room dining</li>
+                        </ul>
+                        </ul>
+                        <p>This two-bay suite is elegant and spacious offering a living room, a bedroom and a bathroom. Décor in the suite is warm and rich accented with colourful brocades and exquisite handcrafted tapestries on the walls. This suite with its myriad offerings will ensure you have a pampering and relaxing stay.</p>
+                        <p class = "rate">
+                            <span>Rs. 35800* /</span> Per Night
+                        </p>
+                        <button type = "button" class = "head-btn"><a href="booking.html" target="_blank">Book Now</a></button>
+                    </div>
+                </article>
+            
+                <!-- Royal Suite with Private Pool -->
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "images/Royal Room.jpeg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Royal Suite with Private Pool</h3>
+                        <ul>
+                            <li><i class = "fas fa-car"></i>Airport transfers in BMW</li>
+                            <li><i class = "fas fa-wifi"></i>Complimentary Basic WiFi</li>
+                            <li><i class = "fas fa-users"></i>Upto 4 people</li>
+                            <li><i class = "fas fa-concierge-bell"></i>24 hours in-room dining</li>
+                        </ul>
+                        <p>True to its name, this suite is royal in design and welcoming in all its splendid offerings. An inviting view of the gardens adds to its allure and an indulgent touch to this suite is the largest open-to-sky temperature - controlled plunge pool with Jacuzzi at the palace.<br></p>
+                        <p class = "rate">
+                            <span>Rs. 42500* /</span> Per Night
+                        </p>
+                        <button type = "button" class = "head-btn"><a href="booking.html" target="_blank">Book Now</a></button>
+                    </div>
+                </article>
+                
+            </div>
+        </section>
+
+          <!--Photo Gallery  -->
+    <section class = "photo" id="photos">
+        <div class = "photo-container">
+            <div class = "title">
+                <h1>Gallery</h1>
+            </div>
+          <div class="slider-container">
+            <span class="slider-span" id="slider-span1"></span>
+            <span class="slider-span" id="slider-span2"></span>
+            <span class="slider-span" id="slider-span3"></span>
+            <span class="slider-span" id="slider-span4"></span>
+            <span class="slider-span" id="slider-span5"></span>
+            <span class="slider-span" id="slider-span6"></span>
+            <span class="slider-span" id="slider-span7"></span>
+
+            <div class="image-slider">
+                <div class="slides-div" id="slide-1">
+                    <img src="images/PhotoGallery/1.jpg" alt="" class="imgage" id="imgage1">
+                    <a href="#slider-span1" class="button" id="button-1"></a>
+                </div>
+                <div class="slides-div" id="slide-2">
+                    <img src="images/PhotoGallery/2.jpg" alt="" class="imgage" id="imgage2">
+                    <a href="#slider-span2" class="button" id="button-2"></a>
+                </div>
+                <div class="slides-div" id="slide-3">
+                    <img src="images/PhotoGallery/3.jpg" alt="" class="imgage" id="imgage3">
+                    <a href="#slider-span3" class="button" id="button-3"></a>
+                </div>
+                <div class="slides-div" id="slide-4">
+                    <img src="images/PhotoGallery/4.jpg" alt="" class="imgage" id="imgage4">
+                    <a href="#slider-span4" class="button" id="button-4"></a>
+                </div>
+                <div class="slides-div" id="slide-5">
+                    <img src="images/PhotoGallery/5.jpg" alt="" class="imgage" id="imgage5">
+                    <a href="#slider-span5" class="button" id="button-5"></a>
+                </div>
+                <div class="slides-div" id="slide-6">
+                    <img src="images/PhotoGallery/6.jpg" alt="" class="imgage" id="imgage6">
+                    <a href="#slider-span6" class="button" id="button-6"></a>
+                </div>
+                <div class="slides-div" id="slide-7">
+                    <img src="images/PhotoGallery/7.jpg" alt="" class="imgage" id="imgage7">
+                    <a href="#slider-span7" class="button" id="button-7"></a>
+                </div>
+            </div>
+         </div>
+        </div>
+    </section>
+
+       <!-- Photo Gallery End -->
+
+        <!-- Service Section -->
+        <section class = "services sec-width" id = "services">
+            <div class = "title">
+                <h1>services</h1>
+            </div>
+            <div class = "services-container">
+                <!-- Spa & Wellness service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                         <i class = "fas fa-spa"></i>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Spa & Wellness</h2>
+                    </div>
+                </article>
+                
+                <!-- Dry Cleaning & Lundary Service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                            <i class = "fas fa-tshirt"></i>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Dry Cleaning & Lundary</h2>
+                    </div>
+                </article>
+
+                <!-- Swimming pool Service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                            <i class = "fas fa-swimmer"></i>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Swimming Pool</h2>
+                    </div>
+                </article>
+
+                <!-- 24 Hour room service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                            <i class = "fas fa-door-open"></i>
+                    </div>
+                    <div class = "service-content">
+                        <h2>24 Hour room service</h2>
+                    </div>
+                </article>
+
+                <!-- Tour & excursions -->
+                <article class = "service">
+                    <div class = "service-icon">
+                            <i class = "fas fa-map-marked-alt"></i>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Tour & excursions</h2>
+                    </div>
+                </article>
+
+                  <!-- Indoor Club Games -->
+                  <article class = "service">
+                    <div class = "service-icon">
+                            <i class = "fas fa-table-tennis"></i>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Indoor Club Games</h2>
+                    </div>
+                </article>
+
+
+                <!-- Meeting facilities -->
+                <article class = "service">
+                    <div class = "service-icon">
+                            <i class = "fas fa-briefcase"></i>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Meeting facilities</h2>
+                    </div>
+                </article>
+
+                  <!-- Babysitting on request -->
+                  <article class = "service">
+                    <div class = "service-icon">
+                            <i class = "fas fa-baby-carriage"></i>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Babysitting on request</h2>
+                    </div>
+                </article>
+
+                <!-- 24-Hour doctor on call -->
+                <article class = "service">
+                    <div class = "service-icon">
+                            <i class = "fas fa-user-md"></i>
+                    </div>
+                    <div class = "service-content">
+                        <h2>24-Hour doctor on call</h2>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+    
+
+       <!-- Guest Experience Services -->
+        <section class = "customers" id = "customers">
+            <div class = "sec-width">
+                <div class = "title">
+                    <h1><span>Testimonals</span></h1>
+                </div>
+                <div class = "customers-container">
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class="fas fa-star-half-alt"></i></span>
+                        </div>
+                        <h3>We Loved it</h3>
+                        <p>Fantastic location in a historic renovated place in the heart of the city. Staff was really helpful and knowledgeable.</p>
+                        <img src = "images/cus2.jpg" alt = "customer image">
+                        <span>Ina Aldrich,Greece</span>
+                    </div>
+                    
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Comfortable Living</h3>
+                        <p>Can't believe that yesterday night, we were chilling by the pool at the Grand in the city recounting the last few days and what a fantastic time we have had in The Quaint.</p>
+                        <img src = "images/cus1.jpg" alt = "customer image">
+                        <span>Awinash, India</span>
+                    </div>
+                  
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Nice Place</h3>
+                        <p>Every corner of this place is beyond gorgeous. Thank you, to the staff for the amazing tour. And yes the spa serves are crazy. Loved It!</p>
+                        <img src = "images/cus3.jpg" alt = "customer image">
+                        <span>Alia,India</span>
+                    </div>
+                  
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Fantastic</h3>
+                        <p>Fantastic location in a historic renovated place in the heart of the city. Staff was really helpful and knowledgeable.</p>
+                        <img src = "images/cus4.jpg" alt = "customer image">
+                        <span>Mr. & Mrs. Carl,New Zeland</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of body content -->
+
+
+
+<!-- offers & promotions -->
+        <div class="gtco-testimonials" id="offers">
+            <div class = "title">
+                <h1>Offers & Promotions</h1>
+            </div>
+            <div class="owl-carousel owl-carousel1 owl-theme">
+              <div>
+                <div class="card text-center"><img class="card-img-top" src="images/offers/Toast.jpeg" alt="">
+                  <div class="card-body">
+                    <h5>ToastToTomorrow<br />
+                      <span> Valid till 09 Jan 2022 </span></h5>
+                    <p class="card-text">Enjoy festivities with our ToastToTomorrow Celebration Offer, enjoy great value and benefits including breakfast, one set meal, and festive amenity. Festive special meals during some dates such as Christmas & New Year may attract mandatory meal supplement charges. Taxes extra. *Terms and conditions apply </p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="card text-center"><img class="card-img-top" src="images/offers/Quint.jpeg" alt="">
+                  <div class="card-body">
+                    <h5>Quint InnerCircle Member Exclusive<br />
+                      <span> Round the year </span></h5>
+                    <p class="card-text">An exclusive offer for our Taj InnerCircle members </p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="card text-center"><img class="card-img-top" src="images/offers/Urban.jpeg" alt="">
+                  <div class="card-body">
+                    <h5>Urban Getaways<br />
+                      <span> Valid till 30 Sep 2022 </span></h5>
+                    <p class="card-text">Treat yourself and your loved ones to a relaxing staycation at our iconic city hotels. </p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="card text-center"><img class="card-img-top" src="images/offers/4D.jpeg" alt="">
+                  <div class="card-body">
+                    <h5>4D Offer<br />
+                      <span> Valid till 31 Mar 2022 </span></h5>
+                    <p class="card-text">Drive away to our beautiful city resorts and luxury retreats to be with your near and dear ones. Enjoy our warm hospitality and service in your own private villas, beautiful bungalows and luxurious suites as we make you feel at home with our special Early Bird offer. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    <!-- partial -->
+    
+<!-- footer -->
+        <footer class = "footer">
+            <div class = "footer-container">
+                <div>
+                    <h2>The Quaint</h2>
+                    <p>Falling in love with the charm of the 'city of lakes' is easy. More so, when you are staying at Rajasthan’s most romantic resort.</p>
+                    <ul class = "social-icons">
+                        <li class = "flex">
+                            <i class = "fa fa-twitter"></i>
+                        </li>
+                        <li class = "flex">
+                            <i class = "fa fa-facebook-f"></i>
+                        </li>
+                        <li class = "flex">
+                            <i class = "fa fa-instagram"></i>
+                        </li>
+                        <li class = "flex">
+                            <i class = "fa fa-pinterest"></i>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2>About Us</h2>
+                    <a href = "https://www.oberoihotels.com/about-us/" target="_blank" >Our Story</a>
+                    <a href = "https://www.oberoihotels.com/awards/" target="_blank" >Awards</a>
+                    <a href = "https://www.oberoigroup.com/" target="_blank" >Career</a>
+                    <a href = "https://www.oberoihotels.com/contact-us/" target="_blank" >Contact Us</a>
+                </div>
+
+                <div>
+                    <h2>More</h2>
+                    <a href = "https://www.oberoihotels.com/in-the-news/" target="_blank" >News & Media</a>
+                    <a href = "https://www.oberoihotels.com/gift-card/" target="_blank" >Gift Card</a>
+                    <a href = "#rooms" target="_blank" >Rooms</a>
+                    <a href = "#services" target="_blank">Services</a>  
+                </div>
+
+                <div>
+                    <h2>Have A Question</h2>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                        </span>
+                        <span>
+                            203 Lake View, Udaipur, Rajasthan, India 
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-phone-alt"></i>
+                        </span>
+                        <span>
+                            +84545 37534 48
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-envelope"></i>
+                        </span>
+                        <span>
+                            enquiry@thequaint.com
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+        
+        <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'> </script>
+        <script src="script.js"></script>
+
+    </body>
+</html>
